@@ -4,7 +4,7 @@ Start by creating a Repl using the `Nix (Beta)` that is given when selecting the
 
 *Example:*
 
-![<img src="img/NixReplCreate.jpeg">](img/NixReplCreate.jpeg "Nix Repl Create")
+![<img src="./img/NixReplCreate.jpeg">](img/NixReplCreate.jpeg "Nix Repl Create")
 
 # Step 2
 Within this new Project, locate the file named `replit.nix`.
