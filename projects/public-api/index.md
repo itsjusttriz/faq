@@ -13,9 +13,7 @@ This URL is prone to changes at any time, but the above will be kept up-to-date 
 
 ## Usage Notes
 - Almost **ALL** endpoints will return a `String`, unless `?raw=true` is attached to the URL. If a successful call to an endpoint is intended to return JSON, the default `String` will state the following:
-> ```
-> Check the \'payload\' property. (Add ?raw=true to the URL)
-> ```
+  > *Check 'payload' property. (Add `?raw=true` to the URL)*
 
 ## Endpoint paths
 
