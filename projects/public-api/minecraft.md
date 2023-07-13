@@ -1,4 +1,4 @@
-# Minecraft Endpoints
+# Minecraft Endpoints - [_Back to Main_](index.md)
 
 **Table of Contents**
 - [Minecraft Endpoints](#minecraft-endpoints)
