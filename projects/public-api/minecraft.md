@@ -2,7 +2,7 @@
 
 **Table of Contents**
 - [Minecraft Endpoints](#minecraft-endpoints)
-  - [*`GET /minecraft/channels/get/{channel}`*](#get-minecraftchannelsgetchannel)
+  - [*GET /minecraft/channels/get/{channel}*](#get-minecraftchannelsgetchannel)
 
 ## *`GET /minecraft/channels/get/{channel}`*
 Gets a modpack that's attached to a user, in our database, if any.
