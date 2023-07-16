@@ -2,9 +2,9 @@
 
 **Table of Contents**
 - [Misc Endpoints](#misc-endpoints)
-  - [*GET `/misc/temp`*](get-misctemp)
-  - [*GET `/misc/timeFrom`*](get-misctimeFrom)
-  - [*GET `/misc/timeUntil`*](get-misctimeUntil)
+  - [*GET `/misc/temp`*](#get-misctemp)
+  - [*GET `/misc/timeFrom`*](#get-misctimefrom)
+  - [*GET `/misc/timeUntil`*](#get-misctimeuntil)
 
 ---
 ### *`GET /misc/temp`*
