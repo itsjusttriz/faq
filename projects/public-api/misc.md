@@ -14,8 +14,8 @@
 | Query Parameters | Required? | Description |
 |-|-|-|
 | `raw` | :x: | Accepts `true` or `false`.<br/> If `true`, you'll get a JSON response. Otherwise, a string.|
-| `from` | ✅ | Accepts `fahrenheit`,`f`,`celsius`,`c`.<br/>This will be the value that you want to convert **from**.
-| `to` | ✅ | Accepts `fahrenheit`,`f`,`celsius`,`c`.<br/>This will be the value that you want to convert **to**.
+| `from` | ✅ | Accepts `fahrenheit`,`f`,`celsius` or `c`.<br/>This will be the value that you want to convert **from**.
+| `to` | ✅ | Accepts `fahrenheit`,`f`,`celsius` or `c`.<br/>This will be the value that you want to convert **to**.
 | `value` | ✅ | Accepts a number or a float.<br/>This will be the number value that you want to convert.
 
 **Sample Request** (_with query parameters_)
