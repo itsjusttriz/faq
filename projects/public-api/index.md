@@ -5,6 +5,7 @@
   - [Usage Notes](#usage-notes)
   - [Endpoint paths](#endpoint-paths)
       - [/minecraft](#minecraft)
+      - [/misc](#misc)
 
 ## The base Api Url
 The base url for this API server is: [https://api.itsjusttriz.com]()
