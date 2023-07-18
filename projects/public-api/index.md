@@ -6,6 +6,8 @@
   - [Endpoint paths](#endpoint-paths)
       - [/minecraft](#minecraft)
       - [/misc](#misc)
+      - [/stackup](#stackup)
+      - [/twitch](#twitch)
 
 ## The base Api Url
 The base url for this API server is: [https://api.itsjusttriz.com]()
@@ -31,3 +33,14 @@ This URL is prone to changes at any time, but the above will be kept up-to-date 
   - *`GET /misc/temp`* [*See more...*](misc.md#get-misctemperature)
   - *`GET /misc/timeFrom`* [*See more...*](misc.md#get-misctimeFrom)
   - *`GET /misc/temperature`* [*See more...*](misc.md#get-misctimeUntil)
+
+#### /stackup
+
+  - *`GET /stackup/events/{eventId}`* [*See more...*](stackup.md#get-stackupeventseventid)
+  - *`GET /stackup/teams/{teamId}`* [*See more...*](stackup.md#get-stackupteamsteamid)
+  - *`GET /stackup/participants/{participantId}`* [*See more...*](stackup.md#get-stackupparticipantsparticipantid)
+
+#### /twitch
+
+  - *`GET /twitch/user/{userIdOrName}`* [*See more...*](twitch.md#get-twitchuseruseridorname)
+  - *`GET /twitch/vods/{userIdOrName}`* [*See more...*](twitch.md#get-twitchvodsuseridorname)
