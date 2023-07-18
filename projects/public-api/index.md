@@ -19,8 +19,8 @@ This URL is prone to changes at any time, but the above will be kept up-to-date 
 ## Endpoint paths
 
 #### /minecraft
-  - `GET /minecraft/channels/get/{channel}` [*See more...*](minecraft.md#get-minecraftchannelsgetchannel)
+  - *`GET /minecraft/channels/get/{channel}`* [*See more...*](minecraft.md#get-minecraftchannelsgetchannel)
 #### /misc
-  - `GET /misc/temperature` [*See more...*](misc.md#get-misctemperature)
-  - `GET /misc/timeFrom` [*See more...*](misc.md#get-misctimeFrom)
-  - `GET /misc/temperature` [*See more...*](misc.md#get-misctimeUntil)
+  - *`GET /misc/temp`* [*See more...*](misc.md#get-misctemperature)
+  - *`GET /misc/timeFrom`* [*See more...*](misc.md#get-misctimeFrom)
+  - *`GET /misc/temperature`* [*See more...*](misc.md#get-misctimeUntil)
