@@ -1,8 +1,11 @@
-# Minecraft Endpoints - [_Back to Main_](index.md)
+[<- _Back to Main_](index.md)
+# Minecraft Endpoints
 
 **Table of Contents**
 - [Minecraft Endpoints](#minecraft-endpoints)
-  - [*GET `/minecraft/channels/get/{channel}`*](#get-minecraftchannelsgetchannel)
+    - [*`GET /minecraft/channels/get/{channel}`*](#get-minecraftchannelsgetchannel)
+    - [*`GET /minecraft/channels/set/{channel}/{modpackId}`*](#get-minecraftchannelssetchannelmodpackid)
+    - [*`GET /minecraft/channels/list`*](#get-minecraftchannelslist)
 
 ---
 ### *`GET /minecraft/channels/get/{channel}`*
@@ -51,4 +54,107 @@ https://api.itsjusttriz.com/minecraft/channels/get/itsjusttriz?raw=true
 > ...or...
 > ```
 > Invalid Entry!
+> ```
+
+---
+### *`GET /minecraft/channels/set/{channel}/{modpackId}`*
+> **Description:**  
+> Assigns a modpack to a user, in our database, if any.
+
+| Query Parameters | Required? | Description |
+|-|-|-|
+| `raw` | :x: | Accepts `true` or `false`.<br/> If `true`, you'll get a JSON response. Otherwise, a string.|
+
+**Sample Request** (_with query parameters_)
+```
+https://api.itsjusttriz.com/minecraft/channels/set/itsjusttriz/ftbone?raw=true
+```
+
+**Sample Response** (*JSON*)
+> - Success!
+> ```json
+> {
+>     "code": 200,
+>     "message": "Assigned \"FTB One\" to #itsjusttriz. [1 change(s)]",
+>     "payload": {
+>       "channel": "itsjusttriz",
+>       "changes": 1,
+>       "modpack": {
+>         "id": "ftbone",
+>         "name": "FTB One",
+>         "launcher": "FTB App",
+>         "link": "https://feed-the-beast.com/modpack/97_ftb_one",
+>         "dev": "FTB Team",
+>         "type": "public_beta",
+>         "image": "https://apps.modpacks.ch/modpacks/art/93/logo.png"
+>       }
+>     }
+> }
+> ```
+> - Fail!
+> ```json
+> {
+>   "code": 404,
+>   "message":"[ijt.api.ERROR] Invalid entry! Visit http://itsjusttriz.com/#/projects/modpacks for the correct modpackId.",
+>   "payload": {}
+> }
+> ```
+**Sample Response** (*String*)
+> ```
+> Assigned "FTB One" to #itsjusttriz. [1 change(s)]
+> ```
+> ...or...
+> ```
+> [ijt.api.ERROR] Invalid entry! Visit http://itsjusttriz.com/#/projects/modpacks for the correct modpackId.
+> ```
+
+---
+### *`GET /minecraft/channels/list`*
+> **Description:**  
+> Lists all modpacks, assigned to users in our database, if any.
+
+| Query Parameters | Required? | Description |
+|-|-|-|
+| `raw` | :x: | Accepts `true` or `false`.<br/> If `true`, you'll get a JSON response. Otherwise, a string.|
+
+**Sample Request** (_with query parameters_)
+```
+https://api.itsjusttriz.com/minecraft/channels/list?raw=true
+```
+
+**Sample Response** (*JSON*)
+> - Success!
+> ```json
+> {
+>     "code": 200,
+>     "message": "Found 9 documents. Check \"payload\" property.",
+>     "payload": {
+>       "itsjusttriz": {
+>         "id": "ftbone",
+>         "name": "FTB One",
+>         "launcher": "FTB App",
+>         "link": "https://feed-the-beast.com/modpack/97_ftb_one",
+>         "dev": "FTB Team",
+>         "type": "public_beta",
+>         "image": "https://apps.modpacks.ch/modpacks/art/93/logo.png"
+>       },
+>       "...8 more"
+>     }
+> }
+> ```
+> - Fail!
+> ```json
+> {
+>   "code": 404,
+>   "message":"[ijt.api.ERROR] Invalid entry!",
+>   "payload": {}
+> }
+> ```
+**Sample Response** (*String*)
+> ```
+> Found 9 documents. Check "payload" property.
+> ```
+> ...or...
+> ```
+> [ijt.api.ERROR] Invalid entry!
 > ```
