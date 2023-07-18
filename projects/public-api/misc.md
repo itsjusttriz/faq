@@ -1,10 +1,11 @@
-# Misc Endpoints - [_Back to Main_](index.md)
+[<- _Back to Main_](index.md)
+# Misc Endpoints
 
 **Table of Contents**
 - [Misc Endpoints](#misc-endpoints)
-  - [*GET `/misc/temp`*](#get-misctemp)
-  - [*GET `/misc/timeFrom`*](#get-misctimefrom)
-  - [*GET `/misc/timeUntil`*](#get-misctimeuntil)
+    - [*`GET /misc/temp`*](#get-misctemp)
+    - [*`GET /misc/timeFrom`*](#get-misctimefrom)
+    - [*`GET /misc/timeUntil`*](#get-misctimeuntil)
 
 ---
 ### *`GET /misc/temp`*
@@ -51,6 +52,7 @@ https://api.itsjusttriz.com/misc/temp?from=f&to=c&value=110&raw=true
 > ```
 > [ijt.api.ERROR] Something went wrong?
 > ```
+[&#8593; *Back to top*](#misc-endpoints)
 
 ---
 
@@ -100,6 +102,7 @@ https://api.itsjusttriz.com/misc/timeFrom?raw=true&timestamp=2022-12-01T00:00&in
 > ```
 > [ijt.api.ERROR] Invalid Timestamp: 2023-12-01T00:00. The timestamp MUST be from the past.
 > ```
+[&#8593; *Back to top*](#misc-endpoints)
 
 ---
 
@@ -149,3 +152,4 @@ https://api.itsjusttriz.com/misc/timeUntil?raw=true&timestamp=2023-12-01T00:00&i
 > ```
 > [ijt.api.ERROR] Invalid Timestamp: 2022-12-01T00:00. The timestamp MUST be from the future.
 > ```
+[&#8593; *Back to top*](#misc-endpoints)
