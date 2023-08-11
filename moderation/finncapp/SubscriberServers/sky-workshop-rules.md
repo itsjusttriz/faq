@@ -11,8 +11,10 @@ ___
 | 2   | Check below to see a list of Staff in charge of the server.
 | 3   | Anyone known to be performing/displaying/creating inappropriate structures/images/movements will be dealt with accordingly.        |
 | 4   | For servers that provide and require them, overflow protection is a **MUST**.        |
-| 5   | Failure to comply with these rules alongside any further ruling made by staff will result in a removal of access to the servers, access to the Discord or Twitch, or all of the above and further (depending on level of offense).       |
-| 6   | This ruleset is subject to change at any given time. Be prepared. Be honorable. **BE GOOD!**       |
+| 5   | Streaming from this server, **is** allowed. Just be respectful to others as they should, to you.
+| 6   | Chance Cubes are only available to certain selected streamers of this server. They have been disabled everywhere else. If you _somehow_ manage to get access to it... DO NOT TOUCH IT... report it.
+| 7   | Failure to comply with these rules alongside any further ruling made by staff will result in a removal of access to the servers, access to the Discord or Twitch, or all of the above and further (depending on level of offense).       |
+| 8   | This ruleset is subject to change at any given time. Be prepared. Be honorable. **BE GOOD!**       |
 
 <br>
 <br>
