@@ -1,2 +1,0 @@
-# Replit FAQs
-*Nothing yet...*
