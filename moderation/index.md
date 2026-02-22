@@ -1,2 +1,0 @@
-# Moderation FAQs
-*Nothing yet...*
