@@ -2,6 +2,8 @@
 
 This page houses FAQ information related to the servers managed by Finn & the team.
 
+Some information may be repetitive, but it makes things easier to Copy/Paste when needed.
+
 ## Game Server Staff
 
 | User                                |               Role |
