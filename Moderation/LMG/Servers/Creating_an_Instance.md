@@ -65,11 +65,13 @@ Inside `Your Instance -> Configuration -> Minecraft` you will the simple setup o
 
 ## Step 5
 
-<img width="526" height="515" alt="image" src="https://github.com/user-attachments/assets/2f569875-c63d-403b-a3b6-88a2aba9f692" />
-
 - Download the server files from the chosen Modpack Provider.
 - Head to `File Manager`.
-- Paste the ZIP folder containing your server files here. Then click the 3 dots to the right side of this file and click `Extract Here`.
+
+<img width="526" height="515" alt="image" src="https://github.com/user-attachments/assets/2f569875-c63d-403b-a3b6-88a2aba9f692" />
+
+- Paste the ZIP folder containing your server files here.
+- Then click the 3 dots to the right side of this file and click `Extract Here`.
 
 <img width="234" height="679" alt="image" src="https://github.com/user-attachments/assets/f1fc16e3-4147-4303-ad5f-17ca1b513ea7" />
 
