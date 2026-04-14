@@ -2,6 +2,15 @@
 
 This guide is to try to help creating instances easier for those using the AMP panel.
 
+## Table of Contents
+1. [Step 1](#step-1)
+2. [Step 2](#step-2)
+3. [Step 3](#step-3)
+4. [Step 4](#step-4)
+5. [Step 5](#step-5)
+
+---
+
 ## Step 1
 Using the image below as a reference, you need to hit the **blue** `Create Instance` button within the top navbar of the site.
 
